@@ -1,0 +1,10 @@
+#output {
+    padding: 20px;
+    background-color: #e6e6e6;
+    height: 600px;
+    max-width: 400px;
+    overflow: auto;
+    font-family: monospace;
+    font-size: xx-small;
+    white-space: pre-wrap;
+}

@@ -111,8 +111,11 @@ def main():
         # I/O event loop for non-blocking sockets
         tornado.ioloop.IOLoop.current().start()
     except KeyboardInterrupt:
+        pass
+    finally:
         tornado.ioloop.IOLoop.current().stop()
-        tornado.ioloop.IOLoop.current().close()
+        # tornado.ioloop.IOLoop.current().close()
+
 
 
 if __name__ == '__main__':
